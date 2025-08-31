@@ -1,0 +1,6 @@
+com\mycompany\api\ConfigurationManager.class
+com\mycompany\api\UserApiGetTests.class
+com\mycompany\api\RestAssuredSetup.class
+com\mycompany\api\UserApiPutTests.class
+com\mycompany\api\UserApiDeleteTests.class
+com\mycompany\api\UserApiPostTests.class
