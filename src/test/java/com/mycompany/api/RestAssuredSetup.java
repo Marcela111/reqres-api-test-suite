@@ -1,35 +1,26 @@
 package com.mycompany.api;
 
-import org.junit.jupiter.api.Test;
-import java.util.HashMap;
-import java.util.Map;
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
+import org.junit.jupiter.api.BeforeAll;
+
+import io.restassured.RestAssured;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
 
 /**
- * Pruebas para la creación de usuarios en la API.
+ * Clase base para la configuración de RestAssured.
+ * Se encarga de configurar la URL base y otras configuraciones comunes
+ * para todas las pruebas de la API.
  */
-public class UserApiPostTests extends RestAssuredSetup {
+public class RestAssuredSetup {
 
-    /**
-     * Prueba para crear un nuevo usuario exitosamente con un código de estado 201.
-     */
-    @Test
-    public void testPostNewUserSuccessfully() {
-        // Se crea un mapa para el cuerpo de la solicitud.
-        Map<String, String> requestBody = new HashMap<>();
-        requestBody.put("name", "John Doe");
-        requestBody.put("job", "Software Developer");
+    @BeforeAll
+    public static void setup() {
+        // Establece la URL base para todas las solicitudes
+        // La API de reqres.in no requiere clave de API para la mayoría de sus endpoints.
+        RestAssured.baseURI = "https://reqres.in";
 
-        // Se envía la solicitud POST y se valida la respuesta.
-        given()
-            .contentType("application/json") // Se establece el tipo de contenido como JSON.
-            .body(requestBody) // Se adjunta el cuerpo de la solicitud.
-        .when()
-            .post("/users") // Se envía la solicitud al endpoint de creación de usuarios.
-        .then()
-            .statusCode(201) // Se verifica que el código de estado sea 201 (Created).
-            .body("name", equalTo("John Doe")) // Se valida que el nombre en la respuesta sea el correcto.
-            .body("job", equalTo("Software Developer")); // Se valida que el trabajo en la respuesta sea el correcto.
+        // Agrega filtros para imprimir los detalles de la solicitud y la respuesta en la consola.
+        // Esto es muy útil para depurar errores como el 404.
+        RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
     }
 }

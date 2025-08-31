@@ -1,12 +1,14 @@
 package com.mycompany.api;
 
-import io.restassured.http.ContentType;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
-import static io.restassured.RestAssured.given;
+
 import static org.hamcrest.Matchers.equalTo;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static io.restassured.RestAssured.given;
+import io.restassured.http.ContentType;
 
 public class UserApiPostTests extends RestAssuredSetup {
 
