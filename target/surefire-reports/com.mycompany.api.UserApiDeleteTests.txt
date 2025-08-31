@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.api.UserApiDeleteTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.634 s <<< FAILURE! -- in com.mycompany.api.UserApiDeleteTests
-com.mycompany.api.UserApiDeleteTests.testDeleteUser -- Time elapsed: 2.158 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.691 s <<< FAILURE! -- in com.mycompany.api.UserApiDeleteTests
+com.mycompany.api.UserApiDeleteTests.testDeleteUser -- Time elapsed: 2.140 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
-Expected status code <204> but was <404>.
+Expected status code <204> but was <401>.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
