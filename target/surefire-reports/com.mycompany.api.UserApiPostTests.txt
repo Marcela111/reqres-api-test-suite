@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.api.UserApiPostTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.028 s <<< FAILURE! -- in com.mycompany.api.UserApiPostTests
-com.mycompany.api.UserApiPostTests.testPostNewUserSuccessfully -- Time elapsed: 1.025 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.588 s <<< FAILURE! -- in com.mycompany.api.UserApiPostTests
+com.mycompany.api.UserApiPostTests.testPostNewUserSuccessfully -- Time elapsed: 0.584 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
-Expected status code <201> but was <401>.
+Expected status code <201> but was <400>.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
