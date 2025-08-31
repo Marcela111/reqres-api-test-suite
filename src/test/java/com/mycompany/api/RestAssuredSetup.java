@@ -1,34 +1,20 @@
 package com.mycompany.api;
 
-import org.junit.jupiter.api.BeforeAll;
-
 import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.specification.RequestSpecification;
+import org.junit.BeforeClass;
 
 public class RestAssuredSetup {
 
-    private static final String BASE_URI = "https://reqres.in/api";
+    @BeforeClass
+    public static void setup() {
+        RestAssured.baseURI = "https://reqres.in";
+        // Usa la clase ConfigurationManager para obtener la clave de API
+        String apiKey = ConfigurationManager.getApiKey();
 
-    // You can declare a static RequestSpecification to reuse configurations across tests
-    public static RequestSpecification requestSpec;
-
-    @BeforeAll
-    static void setup() {
-        // Build a reusable request specification
-        RequestSpecBuilder builder = new RequestSpecBuilder();
-        builder.setBaseUri(BASE_URI);
-
-        // Remove the API key header that caused the 403 Forbidden error.
-        // The reqres.in API does not require a key.
-        // builder.addHeader("X-API-Key", "your_key_here"); 
-
-        requestSpec = builder.build();
-
-        // Apply this specification as a global filter
-        RestAssured.requestSpecification = requestSpec;
-        
-        // Optional: Global settings for logging.
-        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+        if (apiKey != null) {
+            // Agrega la clave de API al encabezado de las solicitudes
+            // Reemplaza "Authorization" y "Bearer " si la documentación de la API especifica algo diferente
+            RestAssured.requestSpecification = RestAssured.given().header("Authorization", "Bearer " + apiKey);
+        }
     }
 }

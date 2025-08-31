@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.api.UserApiPostTests" time="0.981" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.api.UserApiPostTests" time="1.096" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\mamor\AppData\Local\Temp\surefire14306537760980020438\surefirebooter-20250830231918004_3.jar C:\Users\mamor\AppData\Local\Temp\surefire14306537760980020438 2025-08-30T23-19-17_799-jvmRun1 surefire-20250830231918004_1tmp surefire_0-20250830231918004_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mamor\AppData\Local\Temp\surefire2141122945441156354\surefirebooter-20250830235922418_3.jar C:\Users\mamor\AppData\Local\Temp\surefire2141122945441156354 2025-08-30T23-59-22_229-jvmRun1 surefire-20250830235922418_1tmp surefire_0-20250830235922418_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mamor\OneDrive\Escritorio\reqres-api-test-suite\target\test-classes;C:\Users\mamor\OneDrive\Escritorio\reqres-api-test-suite\target\classes;C:\Users\mamor\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\mamor\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\mamor\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\mamor\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mamor\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mamor\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mamor\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mamor\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mamor\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mamor\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\mamor\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\mamor\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\mamor\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\mamor\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mamor\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\mamor\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\mamor\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\mamor\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\mamor\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mamor\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\mamor\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mamor\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\mamor\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\mamor\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mamor\AppData\Local\Temp\surefire14306537760980020438\surefirebooter-20250830231918004_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mamor\AppData\Local\Temp\surefire2141122945441156354\surefirebooter-20250830235922418_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPostNewUserSuccessfully" classname="com.mycompany.api.UserApiPostTests" time="0.97">
+  <testcase name="testPostNewUserSuccessfully" classname="com.mycompany.api.UserApiPostTests" time="1.09">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <201> but was <401>.
@@ -106,11 +106,11 @@ Body:
 }
 
 HTTP/1.1 401 Unauthorized
-Date: Sun, 31 Aug 2025 03:19:23 GMT
+Date: Sun, 31 Aug 2025 03:59:27 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 27
 Connection: keep-alive
-CF-RAY: 977962cfbe3a8039-GRU
+CF-RAY: 97799d835a0c1cd5-GRU
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
@@ -122,17 +122,17 @@ Ratelimit-Policy: 100;w=60
 Ratelimit-Remaining: 96
 Ratelimit-Reset: 58
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ru11jjdXu9JF4OPH%2FfhM3xTZWNAN4ao%2BGhsi8JZ4YCM%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1756610363"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Ru11jjdXu9JF4OPH%2FfhM3xTZWNAN4ao%2BGhsi8JZ4YCM%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1756610363"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=zj6fu8esiHl8GAy%2Fk9Pzi8pjA2%2FeNg9DS6VJdNKNv4o%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1756612767"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=zj6fu8esiHl8GAy%2Fk9Pzi8pjA2%2FeNg9DS6VJdNKNv4o%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1756612767"
 Vary: Origin
 Via: 1.1 heroku-router
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Request-Id: f865720d-890a-8316-15ff-4dbb167ef8f9
+X-Request-Id: deb3dd63-c5a5-0ba0-f5a7-19fc006725ee
 X-Xss-Protection: 1; mode=block
 cf-cache-status: DYNAMIC
 Server: cloudflare
-server-timing: cfL4;desc="?proto=TCP&rtt=64573&min_rtt=63334&rtt_var=26229&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3106&recv_bytes=831&delivery_rate=57828&cwnd=253&unsent_bytes=0&cid=f64e5db7b0f4e4ef&ts=474&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=146719&min_rtt=65408&rtt_var=79597&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3105&recv_bytes=831&delivery_rate=64762&cwnd=253&unsent_bytes=0&cid=d14b2d98ae0efd28&ts=477&x=0"
 
 {
     "error": "Missing API key"

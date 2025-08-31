@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.api.UserApiGetTests" time="1.276" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.api.UserApiGetTests" time="1.35" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\mamor\AppData\Local\Temp\surefire14306537760980020438\surefirebooter-20250830231918004_3.jar C:\Users\mamor\AppData\Local\Temp\surefire14306537760980020438 2025-08-30T23-19-17_799-jvmRun1 surefire-20250830231918004_1tmp surefire_0-20250830231918004_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mamor\AppData\Local\Temp\surefire2141122945441156354\surefirebooter-20250830235922418_3.jar C:\Users\mamor\AppData\Local\Temp\surefire2141122945441156354 2025-08-30T23-59-22_229-jvmRun1 surefire-20250830235922418_1tmp surefire_0-20250830235922418_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mamor\OneDrive\Escritorio\reqres-api-test-suite\target\test-classes;C:\Users\mamor\OneDrive\Escritorio\reqres-api-test-suite\target\classes;C:\Users\mamor\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\mamor\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\mamor\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\mamor\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mamor\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mamor\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mamor\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mamor\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mamor\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mamor\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\mamor\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\mamor\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\mamor\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\mamor\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mamor\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\mamor\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\mamor\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\mamor\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\mamor\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mamor\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\mamor\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mamor\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\mamor\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\mamor\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mamor\AppData\Local\Temp\surefire14306537760980020438\surefirebooter-20250830231918004_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mamor\AppData\Local\Temp\surefire2141122945441156354\surefirebooter-20250830235922418_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testGetNonExistentUser" classname="com.mycompany.api.UserApiGetTests" time="0.634">
+  <testcase name="testGetNonExistentUser" classname="com.mycompany.api.UserApiGetTests" time="0.728">
     <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <401>.
@@ -101,11 +101,11 @@ Multiparts:		<none>
 Body:			<none>
 
 HTTP/1.1 401 Unauthorized
-Date: Sun, 31 Aug 2025 03:19:21 GMT
+Date: Sun, 31 Aug 2025 03:59:26 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 27
 Connection: keep-alive
-CF-RAY: 977962c5adddf19f-GRU
+CF-RAY: 97799d791cc4e028-GRU
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
@@ -117,24 +117,24 @@ Ratelimit-Policy: 100;w=60
 Ratelimit-Remaining: 98
 Ratelimit-Reset: 60
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Hs7b9KsxHMDdyx0CvbRc1Tgkelaxfb%2BL312mjmcadWc%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1756610361"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Hs7b9KsxHMDdyx0CvbRc1Tgkelaxfb%2BL312mjmcadWc%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1756610361"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=STQZAmNKZdlhOFxpKggW7AT78PklSk2Ddk9sfaZO8ww%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1756612765"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=STQZAmNKZdlhOFxpKggW7AT78PklSk2Ddk9sfaZO8ww%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1756612765"
 Vary: Origin, Accept-Encoding
 Via: 1.1 heroku-router
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Request-Id: a5f74f4b-e93c-57a2-3f61-903d06cd3b4f
+X-Request-Id: 397f1288-afb1-2ae3-ab47-6139d7e038e2
 X-Xss-Protection: 1; mode=block
 cf-cache-status: BYPASS
 Server: cloudflare
-server-timing: cfL4;desc="?proto=TCP&rtt=65392&min_rtt=63675&rtt_var=16347&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3104&recv_bytes=748&delivery_rate=59725&cwnd=252&unsent_bytes=0&cid=08214edcb356d3d5&ts=461&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=152732&min_rtt=63990&rtt_var=83289&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3105&recv_bytes=748&delivery_rate=66197&cwnd=253&unsent_bytes=0&cid=366637c538edc26b&ts=466&x=0"
 
 {
     "error": "Missing API key"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetExistingUser" classname="com.mycompany.api.UserApiGetTests" time="0.631">
+  <testcase name="testGetExistingUser" classname="com.mycompany.api.UserApiGetTests" time="0.613">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
@@ -177,11 +177,11 @@ Multiparts:		<none>
 Body:			<none>
 
 HTTP/1.1 401 Unauthorized
-Date: Sun, 31 Aug 2025 03:19:22 GMT
+Date: Sun, 31 Aug 2025 03:59:26 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 27
 Connection: keep-alive
-CF-RAY: 977962c988e7a4ef-GRU
+CF-RAY: 97799d7cfeaff1bd-GRU
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
@@ -193,17 +193,17 @@ Ratelimit-Policy: 100;w=60
 Ratelimit-Remaining: 97
 Ratelimit-Reset: 59
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Eq%2BRtrFeD1L82H%2BUBaB7m%2FKUKsSEsl%2BkIdcMsSUx1Nc%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1756610362"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Eq%2BRtrFeD1L82H%2BUBaB7m%2FKUKsSEsl%2BkIdcMsSUx1Nc%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1756610362"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=PCqVXl5Gk2I3VwdTrpJoiZSscAlU8oq%2F%2FHONqRl02eI%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1756612766"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=PCqVXl5Gk2I3VwdTrpJoiZSscAlU8oq%2F%2FHONqRl02eI%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1756612766"
 Vary: Origin, Accept-Encoding
 Via: 1.1 heroku-router
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Request-Id: 8f72bcdf-c35b-4c13-6eac-85d5e568df98
+X-Request-Id: 90d88d54-0c47-1c66-bb5f-c02bc04389f5
 X-Xss-Protection: 1; mode=block
 cf-cache-status: BYPASS
 Server: cloudflare
-server-timing: cfL4;desc="?proto=TCP&rtt=65133&min_rtt=64109&rtt_var=24772&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3104&recv_bytes=746&delivery_rate=66074&cwnd=252&unsent_bytes=0&cid=ce7a3645c444a57f&ts=474&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=64083&min_rtt=63925&rtt_var=24288&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3105&recv_bytes=746&delivery_rate=64980&cwnd=252&unsent_bytes=0&cid=049dc78fe36ec4fb&ts=460&x=0"
 
 {
     "error": "Missing API key"

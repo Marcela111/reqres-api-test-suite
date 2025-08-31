@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.api.UserApiGetTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.276 s <<< FAILURE! -- in com.mycompany.api.UserApiGetTests
-com.mycompany.api.UserApiGetTests.testGetNonExistentUser -- Time elapsed: 0.634 s <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.350 s <<< FAILURE! -- in com.mycompany.api.UserApiGetTests
+com.mycompany.api.UserApiGetTests.testGetNonExistentUser -- Time elapsed: 0.728 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <401>.
@@ -32,7 +32,7 @@ Expected status code <404> but was <401>.
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.mycompany.api.UserApiGetTests.testGetExistingUser -- Time elapsed: 0.631 s <<< FAILURE!
+com.mycompany.api.UserApiGetTests.testGetExistingUser -- Time elapsed: 0.613 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
